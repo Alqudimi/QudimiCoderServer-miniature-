@@ -48,7 +48,7 @@ class ModelManager:
                 
                 # تحميل النموذج مع التكميم 4-bit
                 self.model = AutoModelForCausalLM.from_pretrained(
-                    "bigcode/starcoderbase-350m",
+                    "sshleifer/tiny-gpt2",
                     
                     device_map="auto",
                     torch_dtype=torch.float16,
@@ -58,7 +58,7 @@ class ModelManager:
                 
                 # تحميل المحلل اللغوي
                 self.tokenizer = AutoTokenizer.from_pretrained(
-                    "bigcode/starcoderbase-350m",
+                    "sshleifer/tiny-gpt2",
                     trust_remote_code=True
                 )
                 
