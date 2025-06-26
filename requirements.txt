@@ -1,0 +1,31 @@
+# Flask والمكتبات الأساسية
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# مكتبات الذكاء الاصطناعي
+transformers==4.35.2
+torch==2.1.1
+accelerate==0.24.1
+sentencepiece==0.1.99
+protobuf==4.25.1
+
+# مكتبات التكميم والتحسين
+bitsandbytes==0.41.3
+
+# مكتبات النظام والمراقبة
+psutil==5.9.6
+requests==2.31.0
+
+# مكتبات تنسيق الكود
+autopep8==2.0.4
+black==23.11.0
+
+# خادم الإنتاج
+gunicorn==21.2.0
+
+# مكتبات إضافية
+numpy==1.24.4
+pandas==2.0.3
+
