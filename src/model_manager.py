@@ -49,7 +49,7 @@ class ModelManager:
                 # تحميل النموذج مع التكميم 4-bit
                 self.model = AutoModelForCausalLM.from_pretrained(
                     "bigcode/starcoderbase-350m",
-                    load_in_4bit=True,
+                    
                     device_map="auto",
                     torch_dtype=torch.float16,
                     trust_remote_code=True,
